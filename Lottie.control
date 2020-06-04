@@ -1,0 +1,225 @@
+<?xml version="1.0"?>
+<ControlDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>1.1.1</Version>
+  <BaseControlType />
+  <KBSpecific>false</KBSpecific>
+  <DataSourceAllowed>None</DataSourceAllowed>
+  <CustomDataSources />
+  <AutoGrowSupported>false</AutoGrowSupported>
+  <DefinitionDirectory>C:\Program Files (x86)\GeneXus\GeneXus16\UserControls\Lottie</DefinitionDirectory>
+  <IncludeInControlInfo>true</IncludeInControlInfo>
+  <IsEditable>false</IsEditable>
+  <SupportFiles>
+    <Directory>css</Directory>
+    <Directory>documentation</Directory>
+    <Directory>src</Directory>
+  </SupportFiles>
+  <iOS_SupportFiles />
+  <Android_SupportFiles />
+  <BB_SupportFiles />
+  <RuntimeRender>LottieRender.js</RuntimeRender>
+  <WidthPropertyName>Width</WidthPropertyName>
+  <HeightPropertyName>Height</HeightPropertyName>
+  <ResizeSupported>true</ResizeSupported>
+  <Description>Lottie</Description>
+  <OldDescriptions />
+  <Id>00000000-0000-0000-0000-000000000000</Id>
+  <Name>Lottie</Name>
+  <Platforms />
+  <ShowMethod>show</ShowMethod>
+  <ReferencedFiles>
+    <File>src\player\lottie.js</File>
+    <File>css\lottie.css</File>
+  </ReferencedFiles>
+  <iOS_ReferencedFiles />
+  <Android_ReferencedFiles />
+  <BB_ReferencedFiles />
+  <Constructor>
+    <Parameters />
+    <Name>Lottie</Name>
+  </Constructor>
+  <PropertiesDefinition>LottieProperties.xml</PropertiesDefinition>
+  <ObjClass>Lottie</ObjClass>
+  <DesignRender>LottieRender.xsl</DesignRender>
+  <PlatformDefault>0</PlatformDefault>
+  <iOS_PlatformDefault>0</iOS_PlatformDefault>
+  <Android_PlatformDefault>0</Android_PlatformDefault>
+  <ToolboxIcon>src\icon\lottie.ico</ToolboxIcon>
+  <ControlType />
+  <Categories>
+    <Category>KnetApp</Category>
+  </Categories>
+  <Events>
+    <Event>onComplete</Event>
+    <Event>onLoopComplete</Event>
+    <Event>onEnterFrame</Event>
+  </Events>
+  <Methods>
+    <Method>
+      <ReturnType />
+      <Parameters />
+      <Signature>play()</Signature>
+      <Name>play</Name>
+      <Namespace />
+      <FullName>.play</FullName>
+    </Method>
+    <Method>
+      <ReturnType />
+      <Parameters />
+      <Signature>stop()</Signature>
+      <Name>stop</Name>
+      <Namespace />
+      <FullName>stop</FullName>
+    </Method>
+    <Method>
+      <ReturnType />
+      <Parameters />
+      <Signature>pause()</Signature>
+      <Name>pause</Name>
+      <Namespace />
+      <FullName>pause</FullName>
+    </Method>
+    <Method>
+      <ReturnType />
+      <Parameters />
+      <Signature>destroy()</Signature>
+      <Name>destroy</Name>
+      <Namespace />
+      <FullName>destroy</FullName>
+    </Method>
+    <Method>
+      <ReturnType />
+      <Parameters>
+        <Parameter>character</Parameter>
+      </Parameters>
+      <Signature>setQuality(character:character)</Signature>
+      <Name>setQuality</Name>
+      <Namespace />
+      <FullName>setQuality</FullName>
+    </Method>
+    <Method>
+      <ReturnType />
+      <Parameters>
+        <Parameter>character</Parameter>
+      </Parameters>
+      <Signature>setLocationHref(character:character)</Signature>
+      <Name>setLocationHref</Name>
+      <Namespace />
+      <FullName>setLocationHref</FullName>
+    </Method>
+    <Method>
+      <ReturnType />
+      <Parameters>
+        <Parameter>numeric</Parameter>
+      </Parameters>
+      <Signature>setSpeed(numeric:numeric)</Signature>
+      <Name>setSpeed</Name>
+      <Namespace />
+      <FullName>setSpeed</FullName>
+    </Method>
+    <Method>
+      <ReturnType />
+      <Parameters>
+        <Parameter>numeric</Parameter>
+        <Parameter>boolean</Parameter>
+      </Parameters>
+      <Signature>goToAndStop(numeric:numeric,boolean:boolean)</Signature>
+      <Name>goToAndStop</Name>
+      <Namespace />
+      <FullName>goToAndStop</FullName>
+    </Method>
+    <Method>
+      <ReturnType />
+      <Parameters>
+        <Parameter>numeric</Parameter>
+        <Parameter>boolean</Parameter>
+      </Parameters>
+      <Signature>goToAndPlay(numeric:numeric,boolean:boolean)</Signature>
+      <Name>goToAndPlay</Name>
+      <Namespace />
+      <FullName>goToAndPlay</FullName>
+    </Method>
+    <Method>
+      <ReturnType />
+      <Parameters>
+        <Parameter>character</Parameter>
+      </Parameters>
+      <Signature>setDirection(character:character)</Signature>
+      <Name>setDirection</Name>
+      <Namespace />
+      <FullName>setDirection</FullName>
+    </Method>
+    <Method>
+      <ReturnType />
+      <Parameters>
+        <Parameter>boolean</Parameter>
+      </Parameters>
+      <Signature>setSubframe(boolean:boolean)</Signature>
+      <Name>setSubframe</Name>
+      <Namespace />
+      <FullName>setSubframe</FullName>
+    </Method>
+    <Method>
+      <ReturnType />
+      <Parameters>
+        <Parameter>character</Parameter>
+        <Parameter>boolean</Parameter>
+      </Parameters>
+      <Signature>reloadAnimation(character:character,boolean:boolean)</Signature>
+      <Name>reloadAnimation</Name>
+      <Namespace />
+      <FullName>reloadAnimation</FullName>
+    </Method>
+  </Methods>
+  <Actions>
+    <Action>
+      <Order>0</Order>
+      <ActionProperties>
+      <Property>
+        <Key>
+          <string>Name</string>
+        </Key>
+        <Value>
+          <string>Animation</string>
+        </Value>
+      </Property>
+      <Property>
+        <Key>
+          <string>ATTCUSTOMTYPE</string>
+        </Key>
+        <Value>
+          <string>Lottie</string>
+        </Value>
+      </Property>
+      </ActionProperties>
+      <Data />
+      <ActionType>VarDeclaration</ActionType>
+    </Action>
+    <Action>
+      <Order>1</Order>
+      <ActionProperties />
+      <Data>        
+        //Event Start
+
+        //  Usage
+        //    path: the relative path to the animation object. (animationData and path are mutually exclusive)
+        //    loop: true / false / number
+        //    autoplay: true / false it will start playing as soon as it is ready
+        //    name: animation name for future reference
+        //    renderer: 'svg' / 'canvas' / 'html' to set the renderer
+        //    container: the dom element on which to render the animation
+        //    It returns the animation instance you can control with play, pause, setSpeed, etc.
+
+        //    &amp;Animation.loop = true
+        //    &amp;Animation.path = 'animation/data.json'
+        //    &amp;Animation.autoplay = true
+      
+        //EndEvent
+      </Data>
+      <ActionType>CodeSnippet</ActionType>
+    </Action>
+  </Actions>
+  <IsPublic>true</IsPublic>
+  <Android_IsScrollable>false</Android_IsScrollable>
+  <LastLoad>0001-01-01T00:00:00</LastLoad>
+</ControlDefinition>

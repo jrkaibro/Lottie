@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<Content xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Object id="Lottie">
+    <Group>
+      <Name>General</Name>
+      <Type>Main</Type>
+      <Childs>
+        <Prop>
+          <Id>Width</Id>
+          <Name>Width</Name>
+          <Type>Text</Type>
+          <Default>100</Default>
+          <Metadata>
+            <Value name="FlagControlInfoProp"/>
+          </Metadata>
+        </Prop>
+        <Prop>
+          <Id>Height</Id>
+          <Name>Height</Name>
+          <Type>Text</Type>
+          <Default>100</Default>
+          <Metadata>
+            <Value name="FlagControlInfoProp"/>
+          </Metadata>
+        </Prop>
+        <Prop>
+          <Id>AttID</Id>
+          <Name>Attribute</Name>
+          <Type>Custom</Type>
+          <CustomType>Artech.Genexus.Common.CustomTypes.ControlAttVarReference, Artech.Genexus.Common</CustomType>
+          <Metadata>
+            <Value name="FlagHideAttributes">False</Value>
+            <Value name="FlagSetValueMethod">SetAttribute</Value>
+            <Value name="FlagGetValueMethod">GetAttribute</Value>
+            <Value name="FlagScope">DesignTime</Value>
+            <Value name="FlagDataTypeFilter">character,varchar,longvarchar</Value>
+          </Metadata>
+        </Prop>
+        <Prop>
+          <Id>prerender</Id>
+          <Name>prerender</Name>
+          <Type>Boolean</Type>
+          <Default>true</Default>
+          <Metadata>
+            <Value name="FlagControlInfoProp"/>
+          </Metadata>
+        </Prop>
+        <Prop>
+          <Id>name</Id>
+          <Name>name</Name>
+          <Type>Text</Type>
+          <Default>lottie</Default>
+          <Metadata>
+            <Value name="FlagControlInfoProp"/>
+          </Metadata>
+        </Prop>
+        <Prop>
+          <Id>loop</Id>
+          <Name>loop</Name>
+          <Type>Boolean</Type>
+          <Default>true</Default>
+          <Metadata>
+            <Value name="FlagControlInfoProp"/>
+          </Metadata>
+        </Prop>
+        <Prop>
+          <Id>path</Id>
+          <Name>path</Name>
+          <Type>Text</Type>
+          <Default>animation/data.json</Default>
+          <Metadata>
+            <Value name="FlagControlInfoProp"/>
+          </Metadata>
+        </Prop>
+        <Prop>
+          <Id>autoplay</Id>
+          <Name>autoplay</Name>
+          <Type>Boolean</Type>
+          <Default>true</Default>
+          <Metadata>
+            <Value name="FlagControlInfoProp"/>
+          </Metadata>
+        </Prop>
+        <Prop>
+          <Id>animType</Id>
+          <Name>animType</Name>
+          <Type>Combo</Type>
+          <Metadata/>
+          <Values>
+            <Value desc="svg" id="svg"/>
+            <Value desc="html" id="html"/>
+            <Value desc="canvas" id="canvas"/>
+          </Values>
+          <Default>svg</Default>
+          <Metadata>
+            <Value name="FlagControlInfoProp"/>
+          </Metadata>
+        </Prop>
+      </Childs>
+    </Group>
+  </Object>
+</Content>
